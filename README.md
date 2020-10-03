@@ -2,7 +2,7 @@
 
 This script should be ran as root on fresh & clean Ubuntu 20 virtual machines, or so called *droplets* if DigitalOcean is your playground!
 
-Prepare three of those and then on the first one edit swoosh.sh on lines 26 to 29, adjust IP address, hostname, cluster name & set desired sstuser's password, save the file & make it executable with:
+Prepare three of those and then on the first one edit *swoosh.sh* on lines 26 to 29, adjust IP address, hostname, cluster name & set desired sstuser's password, save the file & make it executable with:
 
 > chmod +x swoosh.sh
 
@@ -10,7 +10,7 @@ After doing so on node1, run ``./swoosh.sh`` to execute it and follow instructio
 
 Bootstrap the cluster with:
 
-/etc/init.d/mysql bootstrap-pxc
+>/etc/init.d/mysql bootstrap-pxc
 
 If for any reason bootstrapping fails, try with some of these:
 

@@ -21,12 +21,12 @@ binlog_format=ROW
 default_storage_engine=InnoDB
 wsrep_slave_threads=8
 innodb_autoinc_lock_mode=2
-wsrep_node_address=10.0.0.1
-wsrep_node_name=node1
-wsrep_cluster_name=pxc-cluster
 pxc_strict_mode=ENFORCING
 wsrep_sst_method=xtrabackup-v2
 wsrep_sst_auth="sstuser:sstpassword"
+wsrep_node_address=10.0.0.1
+wsrep_node_name=node1
+wsrep_cluster_name=pxc-cluster
 EOF
 ufw -y enable 
 ufw default deny incoming
@@ -48,5 +48,5 @@ ufw reload
 #  On next 2 cluster nodes uncomment row 18,  #
 #  adjust IP addresses, then comment row 19,  #
 # & change addresses & names on rows 24 & 25. #
-# Add sstuser now, before running this on 2&3 #
+# Add sstuser to DB before adding nodes 2&3!  #
 ###############################################

@@ -2,7 +2,7 @@
 
 This script should be ran on fresh & clean Ubuntu 20 virtual machines!
 
-Prepare three of those, adjust IP addresses etc & then run this on node1 to make the file executable:
+Prepare three of those, adjust IP addresses etc & make the file executable with:
 
 > chmod +x swoosh.sh
 

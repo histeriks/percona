@@ -17,5 +17,7 @@ Add sstuser on node1 before running it on nodes 2 & 3, by logging in into mysql 
 While in mysql console, create sstuser, set it's password and give it appropriate rights with:
 
 > CREATE USER 'sstuser'@'localhost' IDENTIFIED BY 'SET-SST-PASSWORD-HERE';
+
 > GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT ON *.* TO 'sstuser'@'localhost';
+
 > FLUSH PRIVILEGES;

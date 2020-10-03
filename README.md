@@ -6,7 +6,7 @@ Prepare three of those and then on the first one edit *swoosh.sh* on lines 26 to
 
 > chmod +x swoosh.sh
 
-After doing so on node1, run ``./swoosh.sh`` to execute it and follow instructions (set mysql root password etc). 
+After doing so on node1, run *./swoosh.sh* to execute it and follow instructions (set mysql root password etc). 
 
 Bootstrap the cluster with:
 

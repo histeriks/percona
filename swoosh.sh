@@ -47,6 +47,6 @@ ufw reload
 ###############################################
 #  On next 2 cluster nodes uncomment row 18,  #
 #  adjust IP addresses, then comment row 19,  #
-# & change addresses & names on rows 24 & 25. #
+# & change addresses & names on rows 27 & 28. #
 # Add sstuser to DB before adding nodes 2&3!  #
 ###############################################

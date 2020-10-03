@@ -1,6 +1,6 @@
 #   Percona XtraDB Cluster Installation Automation script
 
-This script should be ran on fresh & clean Ubuntu 20 virtual machines!
+This script should be ran as root on fresh & clean Ubuntu 20 virtual machines, or so called droplets if DigitalOcean is your playground!
 
 Prepare three of those, adjust IP addresses etc & make the file executable with:
 

@@ -1,4 +1,5 @@
-#Percona XtraDB Backup Script#
+#Percona XtraDB Backup Script
+
 After download to /root directory, you have to:
 
 1. create backup user & set password;

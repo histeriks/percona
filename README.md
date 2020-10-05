@@ -36,4 +36,4 @@ While in mysql console, create sstuser, set it's password and give it appropriat
 
 On next 2 cluster nodes, edit swoosh.sh, uncomment row 18 adjusting addresses to ones of your nodes, comment row 19 & again change lines 26 to 29 and 33 to 45, then make it executable & run.
 
-
+After configuring everything, set up backups following instructions in it's INSTALL file.

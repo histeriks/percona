@@ -2,7 +2,7 @@
 
 This script should be ran as root on fresh & clean Ubuntu 20 virtual machines, or so called *droplets* if DigitalOcean is your playground!
 
-Prepare three of those and then on the first one edit *swoosh.sh* on lines 26 to 29, adjust IP address, hostname, cluster name & set desired sstuser's password, and edit lines 33 to 45 adjusting addresses, save the file & make it executable with:
+Prepare three of those, with additional private network interface on each, and then on the first one edit *swoosh.sh* on lines 26 to 29, adjust IP address, hostname, cluster name & set desired sstuser's password, and edit lines 33 to 45 adjusting addresses, save the file & make it executable with:
 
 > chmod +x swoosh.sh
 

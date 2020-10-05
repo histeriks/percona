@@ -1,4 +1,4 @@
-#Percona XtraDB Backup Script
+**Percona XtraDB Backup Script**
 
 After download to /root directory, you have to:
 
